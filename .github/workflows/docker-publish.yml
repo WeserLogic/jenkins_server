@@ -33,4 +33,3 @@ jobs:
           push: true
           tags: |
             ${{ env.FULL_IMAGE_NAME }}:latest
-            ${{ env.FULL_IMAGE_NAME }}:trixie-slim
