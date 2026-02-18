@@ -2,7 +2,7 @@ FROM jenkins/jenkins:lts-jdk21
 
 # switch to root user to install python. Then switch back to jenkins user
 USER root
-RUN apt update && apt install -y python3 python3-pip curl jq vim unzip groff less ansible
+RUN apt update && apt install -y python3 python3-pip curl jq vim unzip groff less ansible podman
 
 USER jenkins
 
